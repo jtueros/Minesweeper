@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:background="@drawable/img_background"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+	    <RelativeLayout
+	        android:orientation="horizontal"
+	        android:layout_marginBottom="45dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        
+		    <Chronometer
+		        android:id="@+id/chronometer1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Chronometer"
+		        android:background="@drawable/crono"
+		        android:layout_alignParentRight="true" 
+		        android:textStyle="bold"
+		        android:textSize="20sp"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginRight="5dp"
+		        android:textColor="#ddd" />
+
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="5dp"
+		        android:layout_marginTop="5dp"
+		        android:background="@drawable/crono"
+		        android:text="     8     "
+		        android:textColor="#ddd"
+		        android:textSize="20sp"
+		        android:textStyle="bold" />
+
+		    <ImageButton
+		        android:id="@+id/imageButton1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_centerVertical="true"
+		        android:layout_marginTop="10dp"
+		        android:onClick="restartGame"
+		        android:background="@drawable/imgboton"
+		        android:src="@drawable/img_face" />
+		
+		</RelativeLayout>
+
+  
+	    <LinearLayout        
+	    	android:id="@+id/linearLayout1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
